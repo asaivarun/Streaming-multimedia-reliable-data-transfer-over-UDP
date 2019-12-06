@@ -1,0 +1,5 @@
+ffmpeg -y -f alsa -i default -itsoffset 00:00:00 -f video4linux2 -s 1280x720 -r 10 -i /dev/video0 ./Desktop/Computer\ Networks/AV\ Transmit\ 2/video.avi
+
+ffmpeg -f alsa -i hw:0 lol.wav
+
+
